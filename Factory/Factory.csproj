@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operations\OperationDiv.cs" />
+    <Compile Include="Operations\OperationFactory.cs" />
     <Compile Include="Operations\OperationMul.cs" />
     <Compile Include="Operations\OperationSub.cs" />
     <Compile Include="Operations\OperationAdd.cs" />

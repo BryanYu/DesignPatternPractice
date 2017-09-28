@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace Factory
 {
     public static class Program
-
     {
         public static void Main(string[] args)
         {
@@ -20,7 +19,12 @@ namespace Factory
                 string operate = Console.ReadLine();
                 Console.WriteLine("請輸入數字B");
                 string numberB = Console.ReadLine();
-                string result = Operation.GetResult(Convert.ToDouble(numberA), Convert.ToDouble(numberB), operate).ToString();
+
+                var operation = OperationFactory.CreateOperate(operate);
+                operation.NumberA = Convert.ToDouble(numberA);
+                operation.NumberB = Convert.ToDouble(numberB);
+
+                string result = operation.GetResult().ToString();
                 Console.WriteLine("結果是:{0}", result);
                 Console.ReadLine();
             }
