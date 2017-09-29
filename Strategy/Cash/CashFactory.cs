@@ -8,18 +8,18 @@ namespace Strategy.Cash
 {
     public class CashFactory
     {
-        public static CashSuper CreateCashAccept(CashEnum cashEnum)
+        public static CashContext CreateCashAccept(CashEnum cashEnum)
         {
             switch (cashEnum)
             {
                 case CashEnum.Normal:
-                    return new CashNormal();
+                    return new CashContext(new CashNormal());
 
                 case CashEnum.Return:
-                    return new CashReturn(300, 100);
+                    return new CashContext(new CashReturn(300, 100));
 
                 case CashEnum.Rebate:
-                    return new CashRebate(0.8);
+                    return new CashContext(new CashRebate(0.8));
 
                 default:
                     throw new ArgumentException("參數錯誤");

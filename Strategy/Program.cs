@@ -15,9 +15,12 @@ namespace Strategy
             var cashType = (CashEnum)Enum.Parse(typeof(CashEnum), Console.ReadLine());
 
             var cash = CashFactory.CreateCashAccept(cashType);
+            Console.WriteLine("請輸入數量:");
+            var count = int.Parse(Console.ReadLine());
+
             Console.WriteLine("請輸入金額：");
             var money = double.Parse(Console.ReadLine());
-            var result = cash.AcceptCash(money);
+            var result = cash.GetResult(count * money);
 
             Console.WriteLine("金額為:{0}", result);
             Console.Read();
