@@ -37,7 +37,6 @@
   <ItemGroup>
     <Compile Include="Cash\CashContext.cs" />
     <Compile Include="Cash\CashEnum.cs" />
-    <Compile Include="Cash\CashFactory.cs" />
     <Compile Include="Cash\CashNormal.cs" />
     <Compile Include="Cash\CashRebate.cs" />
     <Compile Include="Cash\CashReturn.cs" />

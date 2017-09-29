@@ -10,9 +10,25 @@ namespace Strategy.Cash
     {
         private CashSuper _cash;
 
-        public CashContext(CashSuper cash)
+        public CashContext(CashEnum cashEnum)
         {
-            this._cash = cash;
+            switch (cashEnum)
+            {
+                case CashEnum.Normal:
+                    this._cash = new CashNormal();
+                    break;
+
+                case CashEnum.Return:
+                    this._cash = new CashReturn(300, 100);
+                    break;
+
+                case CashEnum.Rebate:
+                    this._cash = new CashRebate(0.8);
+                    break;
+
+                default:
+                    throw new ArgumentException("參數錯誤");
+            }
         }
 
         public double GetResult(double money)
