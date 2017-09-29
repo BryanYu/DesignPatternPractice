@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Strategy.Cash.CashContext" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Cash\CashContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy.Cash.CashNormal" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cash\CashNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy.Cash.CashRebate" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cash\CashRebate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy.Cash.CashReturn" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cash\CashReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy.Cash.CashSuper" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cash\CashSuper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy.Program" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Strategy.Cash.CashEnum" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Cash\CashEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
