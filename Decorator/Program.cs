@@ -20,20 +20,20 @@ namespace Decorator
             Finery bigTrouser = new BigTourser();
             Finery sneakers = new Sneakers();
 
-            tShirts.Show();
-            bigTrouser.Show();
+            tShirts.Decorate(person);
+            bigTrouser.Decorate(tShirts);
+            sneakers.Decorate(bigTrouser);
             sneakers.Show();
-            person.Show();
 
             Console.WriteLine("第二種裝扮");
             Finery suit = new Suit();
             Finery tie = new Tie();
             Finery leatherShoes = new LeatherShoes();
-            suit.Show();
-            tie.Show();
+            suit.Decorate(person);
+            tie.Decorate(suit);
+            leatherShoes.Decorate(tie);
             leatherShoes.Show();
 
-            person.Show();
             Console.Read();
         }
     }

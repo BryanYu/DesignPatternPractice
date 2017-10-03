@@ -11,6 +11,7 @@ namespace Decorator.Fineries
         public override void Show()
         {
             Console.WriteLine("皮鞋");
+            base.Show();
         }
     }
 }

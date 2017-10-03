@@ -10,12 +10,16 @@ namespace Decorator.Persons
     {
         private string _name;
 
+        public Person()
+        {
+        }
+
         public Person(string name)
         {
             this._name = name;
         }
 
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine("裝扮的{0}", this._name);
         }
