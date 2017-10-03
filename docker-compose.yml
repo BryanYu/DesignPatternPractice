@@ -1,8 +1,0 @@
-version: '2.1'
-
-services:
-  decorator:
-    image: decorator
-    build:
-      context: .\Decorator
-      dockerfile: Dockerfile
