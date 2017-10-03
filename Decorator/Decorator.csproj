@@ -35,6 +35,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fineries\BigTourser.cs" />
+    <Compile Include="Fineries\Finery.cs" />
+    <Compile Include="Fineries\LeatherShoes.cs" />
+    <Compile Include="Fineries\Sneakers.cs" />
+    <Compile Include="Fineries\Suit.cs" />
+    <Compile Include="Fineries\Tie.cs" />
+    <Compile Include="Fineries\TShirts.cs" />
     <Compile Include="Persons\Person.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

@@ -15,36 +15,6 @@ namespace Decorator.Persons
             this._name = name;
         }
 
-        public void WearTShirts()
-        {
-            Console.WriteLine("大T");
-        }
-
-        public void WearBigTrouser()
-        {
-            Console.WriteLine("垮褲");
-        }
-
-        public void WearSneakers()
-        {
-            Console.WriteLine("破球鞋");
-        }
-
-        public void WearSuit()
-        {
-            Console.WriteLine("西裝");
-        }
-
-        public void WearTie()
-        {
-            Console.WriteLine("領帶");
-        }
-
-        public void WearLeatherShoes()
-        {
-            Console.WriteLine("皮鞋");
-        }
-
         public void Show()
         {
             Console.WriteLine("裝扮的{0}", this._name);

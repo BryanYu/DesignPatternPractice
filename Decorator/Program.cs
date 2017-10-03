@@ -1,4 +1,5 @@
-﻿using Decorator.Persons;
+﻿using Decorator.Fineries;
+using Decorator.Persons;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,15 +15,24 @@ namespace Decorator
             var person = new Person("Bryan");
 
             Console.WriteLine("第一種裝扮");
-            person.WearTShirts();
-            person.WearBigTrouser();
-            person.WearSneakers();
+
+            Finery tShirts = new TShirts();
+            Finery bigTrouser = new BigTourser();
+            Finery sneakers = new Sneakers();
+
+            tShirts.Show();
+            bigTrouser.Show();
+            sneakers.Show();
             person.Show();
 
             Console.WriteLine("第二種裝扮");
-            person.WearSuit();
-            person.WearTie();
-            person.WearLeatherShoes();
+            Finery suit = new Suit();
+            Finery tie = new Tie();
+            Finery leatherShoes = new LeatherShoes();
+            suit.Show();
+            tie.Show();
+            leatherShoes.Show();
+
             person.Show();
             Console.Read();
         }
