@@ -31,7 +31,7 @@
 * [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator/)
 * [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy/)
 * [FactoryMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod/)
-
+* [Prototype](https://github.com/BryanYu/DesignPatternPractice/blob/master/Prototype/)
 
 
 ## 參考書籍：
