@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Operations
+namespace SimpleFactory.Operations
 {
     /// <summary>
     /// 運算類別工廠
     /// </summary>
-    public class OperationFactory
+    public class OperationSimpleFactory
     {
         /// <summary>
         /// 取得運算子執行個體

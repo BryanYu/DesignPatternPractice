@@ -4,14 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Operations
+namespace SimpleFactory.Operations
 {
-    public class OperationSub : Operation
+    public class OperationDiv : Operation
     {
         public override double GetResult()
         {
             double result = 0;
-            result = NumberA - NumberB;
+            if (NumberB == 0)
+            {
+                throw new Exception("除數不能為0");
+            }
+            result = NumberA / NumberB;
             return result;
         }
     }

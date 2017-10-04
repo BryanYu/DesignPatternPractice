@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Operations
+namespace SimpleFactory.Operations
 {
-    public class OperationAdd : Operation
+    public class OperationSub : Operation
     {
         public override double GetResult()
         {
             double result = 0;
-            result = NumberA + NumberB;
+            result = NumberA - NumberB;
             return result;
         }
     }

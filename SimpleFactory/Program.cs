@@ -1,11 +1,11 @@
-﻿using Factory.Operations;
+﻿using SimpleFactory.Operations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory
+namespace SimpleFactory
 {
     public static class Program
     {
@@ -20,7 +20,7 @@ namespace Factory
                 Console.WriteLine("請輸入數字B");
                 string numberB = Console.ReadLine();
 
-                var operation = OperationFactory.CreateOperate(operate);
+                var operation = OperationSimpleFactory.CreateOperate(operate);
                 operation.NumberA = Convert.ToDouble(numberA);
                 operation.NumberB = Convert.ToDouble(numberB);
 

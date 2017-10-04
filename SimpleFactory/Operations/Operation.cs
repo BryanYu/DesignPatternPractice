@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factory.Operations
+namespace SimpleFactory.Operations
 {
     /// <summary>
     /// 計算類別
