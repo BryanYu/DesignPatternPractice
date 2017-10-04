@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prototype.Resumes
 {
-    internal class Resume
+    internal class Resume : ICloneable
     {
         private string _name;
 
@@ -39,6 +39,11 @@ namespace Prototype.Resumes
         {
             Console.WriteLine("{0} {1} {2}", this._name, this._sex, this._age);
             Console.WriteLine("工作經歷：{0} {1}", this._timeArea, this._company);
+        }
+
+        public object Clone()
+        {
+            return (object)this.MemberwiseClone();
         }
     }
 }

@@ -15,13 +15,11 @@ namespace Prototype
             resume.SetPersonalInfo("男", "28");
             resume.SetWorkExperience("1998-2000", "XX公司");
 
-            var resume2 = new Resume("Bryan2");
-            resume2.SetPersonalInfo("男", "25");
+            var resume2 = (Resume)resume.Clone();
             resume2.SetWorkExperience("1998-2006", "YY公司");
 
-            var resume3 = new Resume("Bryan3");
+            var resume3 = (Resume)resume.Clone();
             resume3.SetPersonalInfo("男", "25");
-            resume3.SetWorkExperience("1998-2005", "ZZ公司");
 
             resume.Display();
             resume2.Display();
