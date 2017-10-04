@@ -26,7 +26,7 @@
 
 ## Patterns
 
-* [Simple Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory/)
+* [Simple Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/SimpleFactory/)
 * [Strategy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory/)
 * [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator/)
 * [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy/)
