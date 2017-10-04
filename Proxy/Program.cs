@@ -12,10 +12,10 @@ namespace Proxy
         public static void Main(string[] args)
         {
             var girl = new SchoolGirl() { Name = "正妹" };
-            var pursuit = new Pursuit(girl);
-            pursuit.GiveDolls();
-            pursuit.GiveFlowers();
-            pursuit.GiveChocolate();
+            var proxy = new Proxies.Proxy(girl);
+            proxy.GiveDolls();
+            proxy.GiveFlowers();
+            proxy.GiveChocolate();
 
             Console.Read();
         }
