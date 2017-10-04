@@ -22,6 +22,11 @@ namespace Prototype.Resumes
             this._workExperience = new WorkExperience();
         }
 
+        public Resume(WorkExperience workExperience)
+        {
+            this._workExperience = (WorkExperience)workExperience.Clone();
+        }
+
         public void SetPersonalInfo(string sex, string age)
         {
             this._sex = sex;
@@ -42,7 +47,11 @@ namespace Prototype.Resumes
 
         public object Clone()
         {
-            return (object)this.MemberwiseClone();
+            var obj = new Resume(this._workExperience);
+            obj._name = this._name;
+            obj._age = this._age;
+            obj._sex = this._sex;
+            return obj;
         }
     }
 }
