@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proxy.Pursuits
 {
-    public class Pursuit
+    public class Pursuit : IGiveGift
     {
         private SchoolGirl _girl;
 

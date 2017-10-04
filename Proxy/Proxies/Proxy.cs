@@ -7,28 +7,28 @@ using System.Threading.Tasks;
 
 namespace Proxy.Proxies
 {
-    public class Proxy
+    public class Proxy : IGiveGift
     {
-        private SchoolGirl _girl;
+        private Pursuit _pursuit;
 
         public Proxy(SchoolGirl girl)
         {
-            this._girl = girl;
+            this._pursuit = new Pursuit(girl);
         }
 
         public void GiveDolls()
         {
-            Console.WriteLine(this._girl.Name + "送你洋娃娃");
+            this._pursuit.GiveDolls();
         }
 
         public void GiveFlowers()
         {
-            Console.WriteLine(this._girl.Name + "送你鮮花");
+            this._pursuit.GiveFlowers();
         }
 
         public void GiveChocolate()
         {
-            Console.WriteLine(this._girl.Name + "送你巧克力");
+            this._pursuit.GiveChocolate();
         }
     }
 }

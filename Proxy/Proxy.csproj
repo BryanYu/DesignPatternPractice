@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Proxies\Proxy.cs" />
+    <Compile Include="Pursuits\IGiveGift.cs" />
     <Compile Include="Pursuits\Pursuit.cs" />
     <Compile Include="Pursuits\SchoolGirl.cs" />
   </ItemGroup>
