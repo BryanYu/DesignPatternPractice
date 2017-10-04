@@ -35,11 +35,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Nightingales\IFactory.cs" />
     <Compile Include="Nightingales\Nightingle.cs" />
-    <Compile Include="Nightingales\RoleType.cs" />
-    <Compile Include="Nightingales\SimpleFactory.cs" />
     <Compile Include="Nightingales\Undergraduate.cs" />
+    <Compile Include="Nightingales\UndergraduateFactory.cs" />
     <Compile Include="Nightingales\Volunteer.cs" />
+    <Compile Include="Nightingales\VolunteerFactory.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

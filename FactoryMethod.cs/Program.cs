@@ -11,12 +11,13 @@ namespace FactoryMethod
     {
         public static void Main(string[] args)
         {
-            var nightingle1 = SimpleFactory.CreateNightingle(RoleType.Student);
+            IFactory factory = new UndergraduateFactory();
+            Nightingle nightingle1 = factory.CreateNightingle();
             nightingle1.BuyRice();
-            var nightingle2 = SimpleFactory.CreateNightingle(RoleType.Volunteer);
-            nightingle2.Sweep();
-            var nightingle3 = SimpleFactory.CreateNightingle(RoleType.Student);
-            nightingle3.Wash();
+
+            IFactory factory2 = new VolunteerFactory();
+            Nightingle nightingle2 = factory.CreateNightingle();
+            nightingle2.BuyRice();
         }
     }
 }

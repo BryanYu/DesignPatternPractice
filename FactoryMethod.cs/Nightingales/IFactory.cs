@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Nightingales
 {
-    internal enum RoleType
+    internal interface IFactory
     {
-        Student = 0,
-
-        Volunteer = 1
+        Nightingle CreateNightingle();
     }
 }
