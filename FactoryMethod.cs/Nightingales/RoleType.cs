@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Nightingales
 {
-    internal class Undergraduate : Nightingle
+    internal enum RoleType
     {
+        Student = 0,
+
+        Volunteer = 1
     }
 }

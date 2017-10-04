@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Nightingales
 {
-    internal class Undergraduate : Nightingle
+    internal class Volunteer : Nightingle
     {
     }
 }

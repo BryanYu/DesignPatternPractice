@@ -36,7 +36,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Nightingales\Nightingle.cs" />
+    <Compile Include="Nightingales\RoleType.cs" />
+    <Compile Include="Nightingales\SimpleFactory.cs" />
     <Compile Include="Nightingales\Undergraduate.cs" />
+    <Compile Include="Nightingales\Volunteer.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

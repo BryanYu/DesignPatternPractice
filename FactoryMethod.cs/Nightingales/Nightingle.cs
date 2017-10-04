@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod.cs.Nightingales
+namespace FactoryMethod.Nightingales
 {
     internal class Nightingle
     {

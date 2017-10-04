@@ -1,4 +1,4 @@
-﻿using FactoryMethod.cs.Nightingales;
+﻿using FactoryMethod.Nightingales;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +11,12 @@ namespace FactoryMethod
     {
         public static void Main(string[] args)
         {
-            var nightingle = new Undergraduate();
-            nightingle.BuyRice();
-            nightingle.Sweep();
-            nightingle.Wash();
+            var nightingle1 = SimpleFactory.CreateNightingle(RoleType.Student);
+            nightingle1.BuyRice();
+            var nightingle2 = SimpleFactory.CreateNightingle(RoleType.Volunteer);
+            nightingle2.Sweep();
+            var nightingle3 = SimpleFactory.CreateNightingle(RoleType.Student);
+            nightingle3.Wash();
         }
     }
 }
