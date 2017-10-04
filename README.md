@@ -28,6 +28,7 @@
 
 * [Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory/)
 * [Strategy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory/)
+* [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator/)
 
 
 ## 參考書籍：
