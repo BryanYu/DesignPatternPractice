@@ -14,13 +14,12 @@ namespace Prototype.Resumes
 
         private string _age;
 
-        private string _timeArea;
-
-        private string _company;
+        private WorkExperience _workExperience;
 
         public Resume(string name)
         {
             this._name = name;
+            this._workExperience = new WorkExperience();
         }
 
         public void SetPersonalInfo(string sex, string age)
@@ -29,16 +28,16 @@ namespace Prototype.Resumes
             this._age = age;
         }
 
-        public void SetWorkExperience(string timeArea, string company)
+        public void SetWorkExperience(string workDate, string company)
         {
-            this._timeArea = timeArea;
-            this._company = company;
+            this._workExperience.WorkDate = workDate;
+            this._workExperience.Company = company;
         }
 
         public void Display()
         {
             Console.WriteLine("{0} {1} {2}", this._name, this._sex, this._age);
-            Console.WriteLine("工作經歷：{0} {1}", this._timeArea, this._company);
+            Console.WriteLine("工作經歷：{0} {1}", this._workExperience.WorkDate, this._workExperience.Company);
         }
 
         public object Clone()
