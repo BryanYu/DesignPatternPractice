@@ -1,4 +1,4 @@
-# Factory Pattern - 工廠模式
+# Simple Factory Pattern - 簡單工廠模式
 
 
 將演算法的Class各自獨立，且共同繼承一個Abstract Class，並透過Factory Pattern封裝建立實體的程式碼。
