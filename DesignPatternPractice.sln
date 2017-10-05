@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{D0F45C89-8836-4522-8F01-7C4A0F7D739D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{D234EE1C-797F-4098-8B48-0B2801C099D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D0F45C89-8836-4522-8F01-7C4A0F7D739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0F45C89-8836-4522-8F01-7C4A0F7D739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0F45C89-8836-4522-8F01-7C4A0F7D739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D234EE1C-797F-4098-8B48-0B2801C099D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D234EE1C-797F-4098-8B48-0B2801C099D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D234EE1C-797F-4098-8B48-0B2801C099D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D234EE1C-797F-4098-8B48-0B2801C099D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
