@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace TemplateMethod.TestPapers
 {
-    internal class TestPaperB
+    internal class TestPaperB : TestPaper
     {
-        public void Question1()
+        public new void Question1()
         {
-            Console.WriteLine("試題1");
+            base.Question1();
             Console.WriteLine("答案:C");
         }
 
-        public void Question2()
+        public new void Question2()
         {
-            Console.WriteLine("試題2");
+            base.Question1();
             Console.WriteLine("答案:D");
         }
 
-        public void Question3()
+        public new void Question3()
         {
-            Console.WriteLine("試題3");
+            base.Question1();
             Console.WriteLine("答案:A");
         }
     }

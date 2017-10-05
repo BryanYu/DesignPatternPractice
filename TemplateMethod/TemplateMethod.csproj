@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="TestPapers\TestPaper.cs" />
     <Compile Include="TestPapers\TestPaperB.cs" />
     <Compile Include="TestPapers\TestPaperA.cs" />
   </ItemGroup>
