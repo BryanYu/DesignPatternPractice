@@ -8,22 +8,19 @@ namespace TemplateMethod.TestPapers
 {
     internal class TestPaperA : TestPaper
     {
-        public new void Question1()
+        public override string Answer1()
         {
-            base.Question1();
-            Console.WriteLine("答案:B");
+            return "A";
         }
 
-        public new void Question2()
+        public override string Answer2()
         {
-            base.Question2();
-            Console.WriteLine("答案:A");
+            return "B";
         }
 
-        public new void Question3()
+        public override string Answer3()
         {
-            base.Question3();
-            Console.WriteLine("答案:D");
+            return "C";
         }
     }
 }
