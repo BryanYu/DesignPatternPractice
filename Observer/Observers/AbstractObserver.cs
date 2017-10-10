@@ -1,4 +1,4 @@
-﻿using Observer.Secretaries;
+﻿using Observer.Notifies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +11,12 @@ namespace Observer.Observers
     {
         protected string _name;
 
-        protected Secretary _secret;
+        protected ISubject _sub;
 
-        public AbstractObserver(string name, Secretary secret)
+        public AbstractObserver(string name, ISubject subject)
         {
             this._name = name;
-            this._secret = secret;
+            this._sub = subject;
         }
 
         public abstract void Update();

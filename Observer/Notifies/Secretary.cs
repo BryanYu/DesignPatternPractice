@@ -6,22 +6,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Observer.Secretaries
+namespace Observer.Notifies
 {
-    internal class Secretary
+    internal class Secretary : ISubject
     {
         private IList<AbstractObserver> _observers = new List<AbstractObserver>();
 
         public string SecretyAction { get; set; }
+
+        public string Subjectstate
+        {
+            get { return SecretyAction; }
+            set { SecretyAction = value; }
+        }
 
         public void Attach(AbstractObserver observer)
         {
             this._observers.Add(observer);
         }
 
-        public void Deatch(AbstractObserver observer)
+        public void Detach(AbstractObserver observer)
         {
-            this._observers.Remove(observer);
+            throw new NotImplementedException();
         }
 
         public void Notify()

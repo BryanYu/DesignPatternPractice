@@ -33,12 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Notifies\ISubject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NBAObserver\StockObserver.cs" />
+    <Compile Include="NBAObserver\NBAObserver.cs" />
     <Compile Include="Observers\AbstractObserver.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Secretaries\Secretary.cs" />
+    <Compile Include="Notifies\Secretary.cs" />
     <Compile Include="StockObservers\StockObserver.cs" />
   </ItemGroup>
   <ItemGroup />

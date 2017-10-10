@@ -1,4 +1,4 @@
-﻿using Observer.Secretaries;
+﻿using Observer.Notifies;
 using Observer.StockObservers;
 using System;
 using System.Collections.Generic;

@@ -1,5 +1,5 @@
-﻿using Observer.Observers;
-using Observer.Secretaries;
+﻿using Observer.Notifies;
+using Observer.Observers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +10,13 @@ namespace Observer.StockObservers
 {
     internal class StockObserver : AbstractObserver
     {
-        public StockObserver(string name, Secretary secret) : base(name, secret)
+        public StockObserver(string name, ISubject sub) : base(name, sub)
         {
         }
 
         public override void Update()
         {
-            Console.WriteLine("{0} {1} 關閉股票行情，繼續工作", this._secret.SecretyAction, this._name);
+            Console.WriteLine("{0} {1} 關閉股票行情，繼續工作", this._sub.Subjectstate, this._name);
         }
     }
 }
