@@ -34,6 +34,8 @@
 * [Prototype](https://github.com/BryanYu/DesignPatternPractice/blob/master/Prototype/)
 * [TemplateMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/TemplateMethod)
 * [Facade](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
+* [Builder](https://github.com/BryanYu/DesignPatternPractice/tree/master/Builder)
+
 
 
 ## 參考書籍：
