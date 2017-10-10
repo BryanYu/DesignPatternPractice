@@ -1,4 +1,5 @@
-﻿using Observer.StockObservers;
+﻿using Observer.Observers;
+using Observer.StockObservers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,18 @@ namespace Observer.Secretaries
 {
     internal class Secretary
     {
-        private IList<StockObserver> _observers = new List<StockObserver>();
+        private IList<AbstractObserver> _observers = new List<AbstractObserver>();
 
         public string SecretyAction { get; set; }
 
-        public void Attach(StockObserver stockObserver)
+        public void Attach(AbstractObserver observer)
         {
-            this._observers.Add(stockObserver);
+            this._observers.Add(observer);
+        }
+
+        public void Deatch(AbstractObserver observer)
+        {
+            this._observers.Remove(observer);
         }
 
         public void Notify()

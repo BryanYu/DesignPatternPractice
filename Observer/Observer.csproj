@@ -35,6 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NBAObserver\StockObserver.cs" />
+    <Compile Include="Observers\AbstractObserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Secretaries\Secretary.cs" />
     <Compile Include="StockObservers\StockObserver.cs" />
