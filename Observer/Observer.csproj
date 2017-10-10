@@ -34,6 +34,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <Compile Include="Notifies\ISubject.cs" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NBAObserver\NBAObserver.cs" />
