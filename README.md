@@ -26,15 +26,16 @@
 
 ## Patterns
 
-* [Simple Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/SimpleFactory/)
-* [Strategy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory/)
-* [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator/)
-* [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy/)
-* [FactoryMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod/)
-* [Prototype](https://github.com/BryanYu/DesignPatternPractice/blob/master/Prototype/)
+* [Simple Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/SimpleFactory)
+* [Strategy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Factory)
+* [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator)
+* [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy)
+* [FactoryMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod)
+* [Prototype](https://github.com/BryanYu/DesignPatternPractice/blob/master/Prototype)
 * [TemplateMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/TemplateMethod)
 * [Facade](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
 * [Builder](https://github.com/BryanYu/DesignPatternPractice/tree/master/Builder)
+* [Observer](https://github.com/BryanYu/DesignPatternPractice/blob/master/Observer)
 
 
 
