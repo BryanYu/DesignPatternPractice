@@ -32,6 +32,7 @@
 * [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy/)
 * [FactoryMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod/)
 * [Prototype](https://github.com/BryanYu/DesignPatternPractice/blob/master/Prototype/)
+* [TemplateMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/TemplateMethod)
 * [Facade](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
 
 
