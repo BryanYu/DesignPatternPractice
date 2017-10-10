@@ -35,9 +35,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Directors\PersonDirector.cs" />
     <Compile Include="PersonBuilders\PersonBuilder.cs" />
     <Compile Include="PersonBuilders\PersonFatBuilder.cs" />
     <Compile Include="PersonBuilders\PersonThinBuilder.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
