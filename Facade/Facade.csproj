@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D234EE1C-797F-4098-8B48-0B2801C099D0}</ProjectGuid>
+    <ProjectGuid>{10E06A7D-4CBA-427B-BF2C-92E2F3124BB1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TemplateMethod</RootNamespace>
-    <AssemblyName>TemplateMethod</AssemblyName>
+    <RootNamespace>Facade</RootNamespace>
+    <AssemblyName>Facade</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,13 +33,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="TestPapers\TestPaper.cs" />
-    <Compile Include="TestPapers\TestPaperB.cs" />
-    <Compile Include="TestPapers\TestPaperA.cs" />
+    <Compile Include="Stocks\Realty1.cs" />
+    <Compile Include="Stocks\NationalDebt1.cs" />
+    <Compile Include="Stocks\Stock3.cs" />
+    <Compile Include="Stocks\Stock2.cs" />
+    <Compile Include="Stocks\Stock1.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
