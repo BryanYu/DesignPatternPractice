@@ -35,6 +35,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Departments\Department.cs" />
+    <Compile Include="Departments\IDepartment.cs" />
+    <Compile Include="Departments\AccessDepartment.cs" />
+    <Compile Include="Departments\SqlServerDepartment.cs" />
     <Compile Include="Factory\IFactory.cs" />
     <Compile Include="Factory\AccessFactory.cs" />
     <Compile Include="Factory\SqlServerFactory.cs" />

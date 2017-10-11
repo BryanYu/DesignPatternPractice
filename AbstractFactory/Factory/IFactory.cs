@@ -1,4 +1,5 @@
-﻿using AbstractFactory.Users;
+﻿using AbstractFactory.Departments;
+using AbstractFactory.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace AbstractFactory.Factory
     internal interface IFactory
     {
         IUser CreateUser();
+
+        IDepartment CreateDepartment();
     }
 }
