@@ -1,5 +1,5 @@
-﻿using AbstractFactory.Departments;
-using AbstractFactory.Factory;
+﻿using AbstractFactory.DataAccesses;
+using AbstractFactory.Departments;
 using AbstractFactory.Users;
 using System;
 using System.Collections.Generic;
@@ -14,13 +14,13 @@ namespace AbstractFactory
         public static void Main(string[] args)
         {
             var user = new User();
-            IFactory factory = new SqlServerFactory();
-            var userFactory = factory.CreateUser();
+
+            var userFactory = DataAccess.GetUser();
             userFactory.Insert(user);
             userFactory.GetUser(1);
 
             var department = new Department();
-            var departmentFactory = factory.CreateDepartment();
+            var departmentFactory = DataAccess.GetDepartment();
             departmentFactory.Insert(department);
             departmentFactory.GetDepartment(1);
 
