@@ -35,7 +35,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\IFactory.cs" />
+    <Compile Include="Factory\AccessFactory.cs" />
+    <Compile Include="Factory\SqlServerFactory.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Users\IUser.cs" />
+    <Compile Include="Users\AccessUser.cs" />
     <Compile Include="Users\SqlserverUser.cs" />
     <Compile Include="Users\User.cs" />
   </ItemGroup>

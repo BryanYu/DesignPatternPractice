@@ -1,4 +1,5 @@
-﻿using AbstractFactory.Users;
+﻿using AbstractFactory.Factory;
+using AbstractFactory.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,10 @@ namespace AbstractFactory
         public static void Main(string[] args)
         {
             var user = new User();
-            var sqlserverUser = new SqlserverUser();
-            sqlserverUser.Insert(user);
-            sqlserverUser.GetUser(1);
+            IFactory factory = new SqlServerFactory();
+            var userFactory = factory.CreateUser();
+            userFactory.Insert(user);
+            userFactory.GetUser(1);
 
             Console.Read();
         }

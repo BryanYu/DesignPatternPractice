@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Users
 {
-    internal class SqlserverUser : IUser
+    internal class AccessUser : IUser
     {
         public void Insert(User user)
         {
-            Console.WriteLine("SQL Server新增資料");
+            Console.WriteLine("Access新增資料");
         }
 
         public User GetUser(int id)
         {
-            Console.WriteLine("SQL Server查詢資料");
+            Console.WriteLine("Access查詢資料");
             return null;
         }
     }
