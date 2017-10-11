@@ -46,5 +46,9 @@
     <Compile Include="Users\SqlServerUser.cs" />
     <Compile Include="Users\User.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

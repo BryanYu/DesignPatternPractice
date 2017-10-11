@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.Configuration;
 
 namespace AbstractFactory.DataAccesses
 {
@@ -13,9 +14,7 @@ namespace AbstractFactory.DataAccesses
     {
         private static readonly string AssemblyName = "AbstractFactory";
 
-        private static readonly string db = "SqlServer";
-
-        //private static readonly string db = "Access";
+        private static readonly string db = ConfigurationManager.AppSettings["DB"];
 
         public static IUser GetUser()
         {
