@@ -36,6 +36,7 @@
 * [Facade](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
 * [Builder](https://github.com/BryanYu/DesignPatternPractice/tree/master/Builder)
 * [Observer](https://github.com/BryanYu/DesignPatternPractice/blob/master/Observer)
+* [AbstractFactory](https://github.com/BryanYu/DesignPatternPractice/blob/master/AbstractFactory) 
 
 
 
