@@ -5,45 +5,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace AbstractFactory.DataAccesses
 {
     internal class DataAccess
     {
+        private static readonly string AssemblyName = "AbstractFactory";
+
         private static readonly string db = "SqlServer";
 
         //private static readonly string db = "Access";
 
         public static IUser GetUser()
         {
-            IUser result = null;
-            switch (db)
-            {
-                case "SqlServer":
-                    result = new SqlserverUser();
-                    break;
-
-                case "Access":
-                    result = new AccessUser();
-                    break;
-            }
-            return result;
+            string className = AssemblyName + "." + "Users" + "." + db + "User";
+            return (IUser)Assembly.Load(AssemblyName).CreateInstance(className);
         }
 
         public static IDepartment GetDepartment()
         {
-            IDepartment result = null;
-            switch (db)
-            {
-                case "SqlServer":
-                    result = new SqlServerDepartment();
-                    break;
-
-                case "Access":
-                    result = new AccessDepartment();
-                    break;
-            }
-            return result;
+            string className = AssemblyName + "." + "Departments" + "." + db + "Department";
+            return (IDepartment)Assembly.Load(AssemblyName).CreateInstance(className);
         }
     }
 }

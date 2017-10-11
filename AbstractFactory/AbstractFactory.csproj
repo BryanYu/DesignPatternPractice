@@ -43,7 +43,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Users\IUser.cs" />
     <Compile Include="Users\AccessUser.cs" />
-    <Compile Include="Users\SqlserverUser.cs" />
+    <Compile Include="Users\SqlServerUser.cs" />
     <Compile Include="Users\User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Users
 {
-    internal class SqlserverUser : IUser
+    internal class SqlServerUser : IUser
     {
         public void Insert(User user)
         {
