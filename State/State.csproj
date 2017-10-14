@@ -44,6 +44,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\AbstactState.cs" />
+    <Compile Include="States\AfterNoonState.cs" />
+    <Compile Include="States\EveningState.cs" />
+    <Compile Include="States\ForenoonState.cs" />
+    <Compile Include="States\NoonState.cs" />
+    <Compile Include="States\RestState.cs" />
+    <Compile Include="States\SleepingState.cs" />
     <Compile Include="Works\Work.cs" />
   </ItemGroup>
   <ItemGroup>
