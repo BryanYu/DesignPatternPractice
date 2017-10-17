@@ -15,17 +15,13 @@ namespace Memento
             solider.GetInitState();
             solider.StateDisplay();
 
-            GameRole backup = new GameRole();
-            backup.Vit = solider.Vit;
-            backup.Attack = solider.Attack;
-            backup.Defense = solider.Defense;
+            RoleStateCaretaker stateAdmin = new RoleStateCaretaker();
+            stateAdmin.Memento = solider.SaveState();
 
             solider.Fight();
             solider.StateDisplay();
 
-            solider.Vit = backup.Vit;
-            solider.Attack = backup.Attack;
-            solider.Defense = backup.Defense;
+            solider.RecoveryState(stateAdmin.Memento);
 
             solider.StateDisplay();
             Console.Read();

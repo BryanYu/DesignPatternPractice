@@ -35,5 +35,17 @@ namespace Memento.Game
             this.Attack = 0;
             this.Defense = 0;
         }
+
+        public RoleStateMemento SaveState()
+        {
+            return new RoleStateMemento(this.Vit, this.Attack, this.Defense);
+        }
+
+        public void RecoveryState(RoleStateMemento memento)
+        {
+            this.Vit = memento.Vit;
+            this.Attack = memento.Attack;
+            this.Defense = memento.Defense;
+        }
     }
 }

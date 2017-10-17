@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game\GameRole.cs" />
+    <Compile Include="Game\RoleStateCaretaker.cs" />
+    <Compile Include="Game\RoleStateMemento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
