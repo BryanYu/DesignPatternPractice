@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Memento.Game.GameRole">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAIAAAAAoAAAAAAAIAgCAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Game\GameRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memento.Game.RoleStateCaretaker">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\RoleStateCaretaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memento.Game.RoleStateMemento">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Game\RoleStateMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memento.Program">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
