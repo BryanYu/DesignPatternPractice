@@ -15,6 +15,11 @@ namespace State.Works
 
         public bool Finish { get; set; }
 
+        public Work()
+        {
+            this._state = new ForenoonState();
+        }
+
         public void WriteProgram()
         {
             _state.WriteProgram(this);
