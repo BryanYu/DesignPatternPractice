@@ -34,20 +34,20 @@
 
 ## Patterns
 
-* [Simple Factory](https://github.com/BryanYu/DesignPatternPractice/tree/master/SimpleFactory)
-* [Strategy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Strategy)
-* [Decorator](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator)
-* [Proxy](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy)
-* [FactoryMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod)
-* [Prototype](https://github.com/BryanYu/DesignPatternPractice/tree/master/Prototype)
-* [TemplateMethod](https://github.com/BryanYu/DesignPatternPractice/tree/master/TemplateMethod)
-* [Facade](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
-* [Builder](https://github.com/BryanYu/DesignPatternPractice/tree/master/Builder)
-* [Observer](https://github.com/BryanYu/DesignPatternPractice/tree/master/Observer)
-* [AbstractFactory](https://github.com/BryanYu/DesignPatternPractice/tree/master/AbstractFactory) 
-* [State](https://github.com/BryanYu/DesignPatternPractice/tree/master/State) 
-* [Memento](https://github.com/BryanYu/DesignPatternPractice/tree/master/Memento)
-
+* [Simple Factory - 簡單工廠](https://github.com/BryanYu/DesignPatternPractice/tree/master/SimpleFactory)
+* [Strategy - 策略模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Strategy)
+* [Decorator - 裝飾者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Decorator)
+* [Proxy - 代理模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Proxy)
+* [FactoryMethod - 工廠方法](https://github.com/BryanYu/DesignPatternPractice/tree/master/FactoryMethod)
+* [Prototype - 原型模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Prototype)
+* [TemplateMethod - 範本方法](https://github.com/BryanYu/DesignPatternPractice/tree/master/TemplateMethod)
+* [Facade - 外觀模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Facade)
+* [Builder - 建造者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Builder)
+* [Observer - 觀察者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Observer)
+* [AbstractFactory - 抽象工廠](https://github.com/BryanYu/DesignPatternPractice/tree/master/AbstractFactory) 
+* [State - 狀態模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/State) 
+* [Memento - 備忘錄模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Memento)
+* [Composite - 組合模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Composite)
 
 
 
