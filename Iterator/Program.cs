@@ -10,12 +10,21 @@ namespace Iterator
     {
         private static void Main(string[] args)
         {
-            IEnumerable<int> temps = new List<int> { 1, 2, 3, 4, 5 };
+            List<int> temps = new List<int> { 1, 2, 3, 4, 5 };
 
+            //foreach
             foreach (var temp in temps)
             {
                 Console.WriteLine(temp);
             }
+            //Enumeator
+            List<int> temps2 = new List<int> { 6, 7, 8, 9, 10 };
+            var tempEnumerator = temps2.GetEnumerator();
+            while (tempEnumerator.MoveNext())
+            {
+                Console.WriteLine(tempEnumerator.Current);
+            }
+            Console.Read();
         }
     }
 }
