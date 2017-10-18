@@ -48,6 +48,7 @@
 * [State - 狀態模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/State) 
 * [Memento - 備忘錄模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Memento)
 * [Composite - 組合模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Composite)
+* [Iterator - 迭代器模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Iterator)
 
 
 
