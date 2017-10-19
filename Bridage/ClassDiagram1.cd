@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bridage.Brand.HandsetBrand">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAAI=</HashCode>
+      <FileName>Brand\HandsetBrand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Brand.HandsetBrandM">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Brand\HandsetBrandM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Brand.HandsetBrandN">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Brand\HandsetBrandN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Brand.HandsetBrandS">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Brand\HandsetBrandS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Program">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Soft.HandsetAddressList">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Soft\HandsetAddressList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Soft.HandsetGame">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Soft\HandsetGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Soft.HandsetMP3">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Soft\HandsetMP3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridage.Soft.HandSoft">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Soft\HandSoft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
