@@ -10,6 +10,7 @@ namespace Bridage.Brand
     {
         public override void Run()
         {
+            this._soft.Run();
         }
     }
 }

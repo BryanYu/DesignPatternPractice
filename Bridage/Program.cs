@@ -1,6 +1,5 @@
-﻿using Bridage.AddressList;
-using Bridage.Brand;
-using Bridage.Game;
+﻿using Bridage.Brand;
+using Bridage.Soft;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,19 +12,17 @@ namespace Bridage
     {
         private static void Main(string[] args)
         {
-            HandsetBrand hb = new HandsetBrand();
-            hb = new HandsetBrandMAddressList();
+            HandsetBrand hb;
+            hb = new HandsetBrandN();
+            hb.SetHandsetSoft(new HandsetGame());
             hb.Run();
 
-            hb = new HandsetBrandMGame();
+            hb = new HandsetBrandM();
+            hb.SetHandsetSoft(new HandsetGame());
             hb.Run();
 
-            hb = new HandsetBrandNAddressList();
+            hb.SetHandsetSoft(new HandsetAddressList());
             hb.Run();
-
-            hb = new HandsetBrandNGame();
-            hb.Run();
-
             Console.Read();
         }
     }

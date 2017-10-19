@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bridage.Soft;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace Bridage.Brand
 {
-    internal class HandsetBrand
+    internal abstract class HandsetBrand
     {
-        public virtual void Run()
+        protected HandSoft _soft;
+
+        public void SetHandsetSoft(HandSoft soft)
         {
+            this._soft = soft;
         }
+
+        public abstract void Run();
     }
 }

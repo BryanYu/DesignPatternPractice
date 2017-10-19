@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bridage.Game
+namespace Bridage.Soft
 {
-    internal class HandsetBrandMGame : HandsetBrandM
+    internal class HandsetGame : HandSoft
     {
         public override void Run()
         {
-            Console.WriteLine("M牌手機遊戲");
+            Console.WriteLine("手機遊戲");
         }
     }
 }

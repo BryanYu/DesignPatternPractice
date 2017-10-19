@@ -42,13 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddressList\HandsetBrandNAddressList.cs" />
-    <Compile Include="AddressList\HandsetBrandMAddressList.cs" />
     <Compile Include="Brand\HandsetBrand.cs" />
     <Compile Include="Brand\HandsetBrandM.cs" />
     <Compile Include="Brand\HandsetBrandN.cs" />
-    <Compile Include="Game\HandsetBrandMGame.cs" />
-    <Compile Include="Game\HandsetBrandNGame.cs" />
+    <Compile Include="Soft\HandsetAddressList.cs" />
+    <Compile Include="Soft\HandsetGame.cs" />
+    <Compile Include="Soft\HandSoft.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
