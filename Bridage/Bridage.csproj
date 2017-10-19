@@ -45,8 +45,10 @@
     <Compile Include="Brand\HandsetBrand.cs" />
     <Compile Include="Brand\HandsetBrandM.cs" />
     <Compile Include="Brand\HandsetBrandN.cs" />
+    <Compile Include="Brand\HandsetBrandS.cs" />
     <Compile Include="Soft\HandsetAddressList.cs" />
     <Compile Include="Soft\HandsetGame.cs" />
+    <Compile Include="Soft\HandsetMP3.cs" />
     <Compile Include="Soft\HandSoft.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
