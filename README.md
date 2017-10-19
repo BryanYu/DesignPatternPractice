@@ -50,6 +50,7 @@
 * [Composite - 組合模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Composite)
 * [Iterator - 迭代器模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Iterator)
 * [Singleton - 獨體模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Singleton)
+* [Bridage - 橋接模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Bridage)
 
 
 
