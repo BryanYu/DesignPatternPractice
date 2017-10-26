@@ -42,12 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Barbecu\BakeChickenWing.cs" />
+    <Compile Include="Barbecu\BakeMuttonCommand.cs" />
     <Compile Include="Barbecu\Barbecuer.cs" />
+    <Compile Include="Barbecu\Commands.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Barbecu\Waiter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

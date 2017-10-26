@@ -12,12 +12,18 @@ namespace Command
         private static void Main(string[] args)
         {
             var boy = new Barbecuer();
-            boy.BakeMutton();
-            boy.BakeChickenWing();
-            boy.BakeMutton();
-            boy.BakeMutton();
-            boy.BakeMutton();
-            boy.BakeChickenWing();
+            Commands bakeMuttonCommand1 = new BakeMuttonCommand(boy);
+            Commands bakeMuttonCommand2 = new BakeMuttonCommand(boy);
+            Commands bakeChickenWingCommand1 = new BakeChickenWing(boy);
+
+            Waiter girl = new Waiter();
+            girl.SetOrder(bakeMuttonCommand1);
+            girl.Notify();
+            girl.SetOrder(bakeMuttonCommand2);
+            girl.Notify();
+            girl.SetOrder(bakeChickenWingCommand1);
+            girl.Notify();
+
             Console.Read();
         }
     }

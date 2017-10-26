@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace Command.Barbecu
 {
-    public class Barbecuer
+    internal class BakeChickenWing : Commands
     {
-        public void BakeMutton()
+        public BakeChickenWing(Barbecuer receiver) : base(receiver)
         {
-            Console.WriteLine("烤羊肉串");
         }
 
-        public void BakeChickenWing()
+        public override void ExecuteCommand()
         {
-            Console.WriteLine("烤雞翅");
+            receiver.BakeChickenWing();
         }
     }
 }
