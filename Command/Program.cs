@@ -18,9 +18,7 @@ namespace Command
 
             Waiter girl = new Waiter();
             girl.SetOrder(bakeMuttonCommand1);
-            girl.Notify();
             girl.SetOrder(bakeMuttonCommand2);
-            girl.Notify();
             girl.SetOrder(bakeChickenWingCommand1);
             girl.Notify();
 

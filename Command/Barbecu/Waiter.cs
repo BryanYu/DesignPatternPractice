@@ -8,16 +8,33 @@ namespace Command.Barbecu
 {
     internal class Waiter
     {
-        private Commands _command;
+        private List<Commands> _orders = new List<Commands>();
 
         public void SetOrder(Commands command)
         {
-            this._command = command;
+            if (command.ToString() == "命令模式.BakeChickenWingCommand")
+            {
+                Console.WriteLine("雞翅沒有了");
+            }
+            else
+            {
+                _orders.Add(command);
+                Console.WriteLine("增加訂單:" + command.ToString() + "時間:" + DateTime.Now.ToString());
+            }
+        }
+
+        public void CancelOrder(Commands command)
+        {
+            this._orders.Remove(command);
+            Console.WriteLine("取消訂單:" + command.ToString() + "時間:" + DateTime.Now.ToString());
         }
 
         public void Notify()
         {
-            this._command.ExecuteCommand();
+            foreach (var order in this._orders)
+            {
+                order.ExecuteCommand();
+            }
         }
     }
 }
