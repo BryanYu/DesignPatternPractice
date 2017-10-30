@@ -6,6 +6,6 @@
 
 # 類別圖
 
-![責任鏈模式](https://github.com/BryanYu/DesignPatternPractice/blob/master/ChainOfResponsbility/ClassDiagram1.png)
+![責任鏈模式](https://github.com/BryanYu/DesignPatternPractice/blob/master/ChainOfResponsibility/ClassDiagram1.png)
 
 
