@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salary\Director.cs" />
+    <Compile Include="Salary\GM.cs" />
     <Compile Include="Salary\Manager.cs" />
+    <Compile Include="Salary\CommonManager.cs" />
     <Compile Include="Salary\ManagerLevel.cs" />
     <Compile Include="Salary\Request.cs" />
     <Compile Include="Salary\RequestType.cs" />
