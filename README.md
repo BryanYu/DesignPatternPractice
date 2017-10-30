@@ -52,6 +52,7 @@
 * [Singleton - 獨體模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Singleton)
 * [Bridage - 橋接模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Bridage)
 * [Command - 命令模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Command)
+* [ChainOfResponsibility - 責任鏈模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/ChainOfResponsibility)
 
 
 
