@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Visitor.Persons.Action">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Fail">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Fail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Love">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Love.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Man">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Visitor.Persons.Person" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="5.571" />
+        <Point X="5.75" Y="5.875" />
+        <Point X="4.5" Y="5.875" />
+        <Point X="4.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Man.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.ObjectStructure">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAIAAAAAAQAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\ObjectStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Person">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Success">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Success.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Persons.Woman">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Woman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.Program" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
