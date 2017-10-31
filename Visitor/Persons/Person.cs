@@ -8,8 +8,6 @@ namespace Visitor.Persons
 {
     internal abstract class Person
     {
-        public string Action { get; set; }
-
-        public abstract void GetConclusion();
+        public abstract void Accept(Action visitor);
     }
 }

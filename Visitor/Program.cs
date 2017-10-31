@@ -11,18 +11,18 @@ namespace Visitor
     {
         private static void Main(string[] args)
         {
-            var persons = new List<Person>();
-            persons.Add(new Man { Action = "成功" });
-            persons.Add(new Woman { Action = "成功" });
-            persons.Add(new Man { Action = "失敗" });
-            persons.Add(new Woman { Action = "失敗" });
-            persons.Add(new Man { Action = "戀愛" });
-            persons.Add(new Woman { Action = "戀愛" });
+            ObjectStructure obj = new ObjectStructure();
+            obj.Attach(new Man());
+            obj.Attach(new Woman());
 
-            foreach (var person in persons)
-            {
-                person.GetConclusion();
-            }
+            Success success = new Success();
+            obj.Display(success);
+
+            Fail fail = new Fail();
+            obj.Display(fail);
+
+            Love love = new Love();
+            obj.Display(love);
 
             Console.Read();
         }
