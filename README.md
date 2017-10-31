@@ -55,7 +55,7 @@
 * [ChainOfResponsibility - 責任鏈模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/ChainOfResponsibility)
 * [Mediator - 中介者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Mediator)
 * [FlyWeight - 享元模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/FlyWeight)
-
+* [Visitor - 訪問者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Visitor)
 
 ## 參考書籍：
 * [大話設計模式](https://www.tenlong.com.tw/products/9789866072116/)
