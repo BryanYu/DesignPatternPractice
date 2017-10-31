@@ -54,6 +54,7 @@
 * [Command - 命令模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Command)
 * [ChainOfResponsibility - 責任鏈模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/ChainOfResponsibility)
 * [Mediator - 中介者模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/Mediator)
+* [FlyWeight - 享元模式](https://github.com/BryanYu/DesignPatternPractice/tree/master/FlyWeight)
 
 
 ## 參考書籍：
