@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace FlyWeight.Site
 {
-    internal abstract class WebSite
+    internal class User
     {
-        public abstract void Use(User user);
+        public string Name;
+
+        public User(string name)
+        {
+            this.Name = name;
+        }
     }
 }

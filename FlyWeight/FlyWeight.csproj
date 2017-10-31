@@ -45,6 +45,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site\ConcreteWebSite.cs" />
+    <Compile Include="Site\User.cs" />
     <Compile Include="Site\WebSite.cs" />
     <Compile Include="Site\WebSiteFactory.cs" />
   </ItemGroup>

@@ -15,9 +15,9 @@ namespace FlyWeight.Site
             this._name = name;
         }
 
-        public override void Use()
+        public override void Use(User user)
         {
-            Console.WriteLine($"網站分類:{this._name}");
+            Console.WriteLine($"網站分類:{this._name},使用者:{user.Name}");
         }
     }
 }
